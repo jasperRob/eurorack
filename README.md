@@ -9,6 +9,8 @@ Each project will have it's own sub directory for code, notes and images, and I 
 
 A very simple LFO module with SQR or TRI wave capability.
 
+Based on David Haillant's Simpe LFO.
+
 
 ## 2. TNGF 8 Step Sequencer
 
