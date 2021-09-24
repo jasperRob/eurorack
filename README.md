@@ -5,12 +5,12 @@ I would like to track my journey into the wonderful world of Eurorack Modular Sy
 Each project will have it's own sub directory for code, notes and images, and I may even make some build videos of them to post on Youtube for anyone interested.
 
 
-# 1. Simple LFO
+## 1. Simple LFO
 
 A very simple LFO module with SQR or TRI wave capability.
 
 
-# 2. TNGF 8 Step Sequencer
+## 2. TNGF 8 Step Sequencer
 
-A neat 8 step sequencer with backwar/forward capability.
+A neat 8 step sequencer with backward/forward capability.
 
