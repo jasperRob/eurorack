@@ -37,5 +37,6 @@ If any of the material in this repo is yours without credit being given, it is n
 | [**Lasso**](Lasso)                    | A CV Quantizer For pitch control or LFO quantization. |
 | [**Faction**](Faction)                | A clock Divider Module. |
 | [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
+| [**Altitude**](Altitude)              | A 2hp Highpass module. |
 
 &nbsp;
