@@ -39,4 +39,6 @@ If any of the material in this repo is yours without credit being given, it is n
 | [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
 | [**Altitude**](Altitude)              | A 2hp Highpass module. |
 
+Some of the modules listed above are still in progress or to be done yet.
+
 &nbsp;
