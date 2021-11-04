@@ -31,13 +31,14 @@ If any of the material in this repo is yours without credit being given, it is n
 | [**Simple LFO**](Simple_LFO)          | A very simple LFO module with SQR or TRI wave capability based on David Haillant's Simple LFO. |
 | [**TNGF Baby8**](TNGF_Baby8)          | A neat 8 step sequencer with backward/forward capability. |
 | [**Crunch**](Crunch)                  | A basic 2hp overdrive distortion module based on Niklas Ronnberg's design. |
-| [**Malice & Envy**](Malice_and_Envy)  | A Slew Rate Limiter with log/lin curve, up/down/both capability and CV controllable rate. |
+| [**Malice & Envy**](Malice_and_Envy)  | An envelope generator with log/lin shaping and CV controllable rise/fall rate based on Kassutronic's Slope module. |
 | [**Dalhalla**](Dalhalla)              | A Quad VCA Module loosely based around the AS3360 VCA/Mixer by Sam Battle (Look Mum No Computer). |
-| [**Bismuth**](Bismuth)                | A Dual ADSR Module based on the ENVGEN 8 from electric druid. |
-| [**Lasso**](Lasso)                    | A CV Quantizer For pitch control or LFO quantization. |
-| [**Faction**](Faction)                | A clock Divider Module. |
+| [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
+| [**Plex**](Plex)                      | A buffered multiple. |
+| [**Faction**](Faction)                | A clock divider module. |
 | [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
 | [**Altitude**](Altitude)              | A 2hp Highpass module. |
+| [**Bismuth**](Bismuth)                | A Dual ADSR Module based on the ENVGEN 8 from electric druid. |
 
 Some of the modules listed above are still in progress or to be done yet.
 
