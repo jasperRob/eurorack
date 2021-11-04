@@ -33,8 +33,8 @@ If any of the material in this repo is yours without credit being given, it is n
 | [**Crunch**](Crunch)                  | A basic 2hp overdrive distortion module based on Niklas Ronnberg's design. |
 | [**Malice & Envy**](Malice_and_Envy)  | An envelope generator with log/lin shaping and CV controllable rise/fall rate based on Kassutronic's Slope module. |
 | [**Dalhalla**](Dalhalla)              | A Quad VCA Module loosely based around the AS3360 VCA/Mixer by Sam Battle (Look Mum No Computer). |
-| [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
 | [**Plex**](Plex)                      | A buffered multiple. |
+| [**Lasso**](Lasso)                    | A CV Quantizer module based on the ATTiny. |
 | [**Faction**](Faction)                | A clock divider module. |
 | [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
 | [**Altitude**](Altitude)              | A 2hp Highpass module. |
