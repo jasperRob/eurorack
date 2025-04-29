@@ -22,37 +22,35 @@ run_pin.value = False  # Ensure it starts low
 
 midi_usb = adafruit_midi.MIDI(midi_in=usb_midi.ports[0])
 
-# Track pulse timing
 clock_high_time = None
 run_high_time = None
 
 while True:
-    # Get current time
     current_time = time.monotonic()
-
-    # Poll for MIDI messages
     msg = midi_usb.receive()
     if msg is not None:
         if isinstance(msg, TimingClock):
-            # Set clock pin high and record the time
+            # set clock pin high and record the time
             clock_pin.value = True
             led.value = True
-            clock_high_time = current_time  # Store time when it was set high
+            clock_high_time = current_time
 
         elif isinstance(msg, Start):
-            # Set run pin high and record the time
+            # set run pin high and record the time
             run_pin.value = True
-            run_high_time = current_time  # Store time when it was set high
+            run_high_time = current_time
 
-    # Check if we need to turn off the clock pulse
+    # check if we need to turn off the clock pulse
     if clock_high_time is not None and (
-        current_time - clock_high_time >= 0.002
-    ):  # 1 ms
+        current_time - clock_high_time >= 0.002  # 2ms pulse
+    ):
         clock_pin.value = False
         led.value = False
-        clock_high_time = None  # Reset tracking
+        clock_high_time = None
 
-    # Check if we need to turn off the run pulse
-    if run_high_time is not None and (current_time - run_high_time >= 0.005):  # 5 ms
+    # check if we need to turn off the run pulse
+    if run_high_time is not None and (
+        current_time - run_high_time >= 0.005
+    ):  # 5ms pulse
         run_pin.value = False
-        run_high_time = None  # Reset tracking
+        run_high_time = None
