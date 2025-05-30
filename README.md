@@ -4,7 +4,7 @@
 
 **What is this?**
 
-I would like to track my journey into the wonderful world of Eurorack Modular Synthesisers, so I have designated this repo to exactly that.
+I would like to track my journey into the wonderful world of Eurorack Modular Synthesisers, so I have designated this repo for exactly that.
 
 &nbsp;
 
@@ -32,14 +32,6 @@ If any of the material in this repo is yours without credit being given, it is n
 | [**TNGF Baby8**](TNGF_Baby8)          | A neat 8 step sequencer with backward/forward capability. |
 | [**Crunch**](Crunch)                  | A basic 2hp overdrive distortion module based on Niklas Ronnberg's design. |
 | [**Malice & Envy**](Malice_and_Envy)  | An envelope generator with log/lin shaping and CV controllable rise/fall rate based on Kassutronic's Slope module. |
-| [**Dalhalla**](Dalhalla)              | A Quad VCA Module loosely based around the AS3360 VCA/Mixer by Sam Battle (Look Mum No Computer). |
-| [**Plex**](Plex)                      | A buffered multiple. |
-| [**Lasso**](Lasso)                    | A CV Quantizer module based on the ATTiny. |
-| [**Faction**](Faction)                | A clock divider module. |
-| [**Trilogy**](Trilogy)                | A Triplet based clock divider. |
-| [**Altitude**](Altitude)              | A 2hp Highpass module. |
-| [**Bismuth**](Bismuth)                | A Dual ADSR Module based on the ENVGEN 8 from electric druid. |
 
-Some of the modules listed above are still in progress or to be done yet.
 
 &nbsp;
